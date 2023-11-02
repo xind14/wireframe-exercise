@@ -1,7 +1,13 @@
+/* * {
+  border: 2px solid red !important;
+} */
+
 body {
-  padding: 0;
-  margin: 0;
-  color: #142632;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 252, 252);
 }
 
 a {
@@ -10,33 +16,21 @@ a {
 
 header {
   background-color: grey;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  width: 100vw;
 }
-
-
 
 nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 960px;
-  margin: 0 auto;
-  
-}
-
-nav > a {
-  padding: 10px 0px;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 1vw;
 }
 
 ul {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 70%;
+  width: 70vw;
   align-items: center;
-  height: 70px;
 }
 
 ul > li {
@@ -45,25 +39,15 @@ ul > li {
 
 li > a {
   color: rgb(211, 207, 207);
-}
-
-main {
-  padding-top: 100px;
+  font-size: 1.5em;
 }
 
 main > section {
   width: 960px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: auto;
-  margin-top: 30px;
-}
-
-
-main img {
-  margin-bottom: 30px;
-
+  gap: 30px;
+  margin: 30px auto 30px;
 }
 
 article {
@@ -71,47 +55,48 @@ article {
 }
 
 article section {
-  height: 340px;
+  height: 310px;
   overflow: scroll;
-  word-wrap: break-word;
-  
+  background: rgb(204, 202, 202);
+  padding-top: 5px;
 }
+
+
+article section p {
+  margin-bottom: 10px;
+  text-indent: 2em;
+ } 
 
 main > section:first-child img:nth-child(5) {
   width: 480px;
 }
 
-
 article > h1 {
   font-size: 2em;
   font-weight: bold;
+
 }
 
 button {
-  margin: 5px;
+  margin-top:1.2em;
   padding: 5px;
-  border: none;
-  background-color: black;   
-  transition: color 350ms;
-
+  background-color: black;
 }
 
 button > a {
   color: white;
-  background-color: black;
   padding-left: 20px;
-  padding-right: 20px ;
+  padding-right: 20px;
+  transition: color 350ms;
 }
 
-button:hover > a {
-  background-color: yellow; 
-} 
-
+button:hover {
+  background-color: blue;
+}
 
 footer {
-  height: 100px;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
+  height: 10vh;
+  width: 100vw;
+  margin-top: auto;
   background: grey;
 }
