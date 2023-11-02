@@ -13,13 +13,16 @@ Today, you will practice building out a professional-style wireframe document fr
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+NA
 
 ### Reflections and Comments
 
 1. How did this go, overall?
+    - I was struggling really hard but I got it after so many times asking GPT to check if my code worked. 
 2. What observations or questions do you have about what you’ve learned so far?
+    - I need to understand more about how nested elements work and what CSS can apply to what. I just need a whole course on CSS.
 3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+    - I thought it would take me shorter but i ended up spending 8 hours on this one and haven't even started lab b yet. I just felt frustrated and kept wanting to work on it that I didn't manage my time well.
 
 
 ## Problem Domain
